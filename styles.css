@@ -14,11 +14,15 @@ a{
 }
 
 a:hover{
-    color: #F2613F !important;
+    color: #FFDA76 !important;
 }
 
 body{
-    background: linear-gradient(to bottom right, #0C0C0C, #272727,#0C0C0C);
+    background-color: #000;
+    background-image: url('Source/H.Furkan\ Yaman-Logo-White.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 20px;
     animation: fadeInAnimation ease-in-out 0.4s;
 }
@@ -44,7 +48,7 @@ nav .logo{
 
 nav .logo i{
     font-size: 26px;
-    color: #F2613F;
+    color: #FFAF00;
 }
 
 nav .links{
@@ -68,7 +72,7 @@ nav .links a{
 
 nav .links a.active{
     font-weight: bold;
-    color: #F2613F;
+    color: #FFAF00;
 }
 
 .about{
@@ -129,12 +133,12 @@ nav .links a.active{
 
 .about .left .info .buttons button.hire{
     color: #fff;
-    background: #F2613F;
+    background: #FFAF00;
     border: 1px solid #171717;
 }
 
 .about .left .info .buttons button.hire:hover{
-    background: #9B3922;
+    background: #FFAF00;
 }
 
 .about .left .info .buttons button.email{
@@ -231,7 +235,7 @@ footer a.online i{
 }
 
 .works .left .works-list .item .work-info h5.active{
-    color: #F2613F;
+    color: #FFDA76;
 }
 
 .works .left .works-list .item .work-info p{
@@ -275,7 +279,7 @@ footer a.online i{
 }
 
 .works .right .item:hover a{
-    color: rgb(242, 97, 63);
+    color: #FFDA76;
 }
 
 .works .right .item a{
@@ -317,11 +321,6 @@ footer{
     animation: fadeInAnimation ease-in-out 1.8s;
 }
 
-footer > a{
-    font-size: 24px;
-    font-weight: 500;
-}
-
 footer .socials{
     display: flex;
     align-items: center;
@@ -329,7 +328,7 @@ footer .socials{
 }
 
 footer .socials a{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     color: rgb(189, 189, 189);
 }
@@ -539,7 +538,7 @@ footer .socials a{
     height: 400px;
     border-radius: 50%;
     border: 8px solid #2c2c2c;
-    margin-top: 130px;
+    margin-top: 180px;
     animation: slide 2s ease-in-out;
 }
 
@@ -559,7 +558,7 @@ footer .socials a{
 }
 
 .social-media .icon:hover{
-    fill: rgb(242, 97, 63);
+    fill: #FFDA76;
     transition: all 0.3s ease-out;
 }
 
